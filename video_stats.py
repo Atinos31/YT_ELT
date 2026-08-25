@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv(dotenv_path="./.env")
 
-API_KEY = "AIzaSyBhZE3KMiPECY3kQhLg5Jg9Bx6Gdbv4ORQ"
+API_KEY = os.getenv("YOUTUBE_API_KEY")
 
 CHANNEL_HANDLE = "BusinessInsider"
 
